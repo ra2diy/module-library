@@ -1,0 +1,263 @@
+﻿键名,链接种类,链接限制,短描述,长描述,连线颜色(RGB)
+Primary,WeaponTypes,1,主武器,指定单位的主武器。,ffff00
+Secondary,WeaponTypes,1,副武器,指定单位的副武器。,ffff00
+ElitePrimary,WeaponTypes,1,精英主武器,指定单位的精英级主武器。,ffff00
+EliteSecondary,WeaponTypes,1,精英副武器,指定单位的精英级副武器。,ffff00
+AutoWeapon.Types,WeaponTypes,-1,自动武器,Kratos自动武器指定的武器列表。,ffff00
+Revenge.Types,WeaponTypes,-1,复仇武器类型,复仇武器类型。,ffff00
+AutoWeapon.Types,WeaponTypes,-1,自动武器发射的武器,自动武器发射的武器,ffff00
+OccupyWeapon,WeaponTypes,1,占领建筑后的武器,占领建筑后的武器,ffff00
+EliteOccupyWeapon,WeaponTypes,1,占领建筑后的精英武器,占领建筑后的精英武器,ffff00
+DeathWeapon,WeaponTypes,1,死亡武器,死亡武器,ffff00
+WeaponType,WeaponTypes,1,蘑菇上天武器,蘑菇上天武器,ffff00
+AirburstWeapon,WeaponTypes,1,空爆武器,空爆武器,ffff00
+ShrapnelWeapon,WeaponTypes,1,溅射武器,溅射武器,ffff00
+Revenge.OnlyReactionWarheads,Warheads,-1,复仇弹头白名单,只有这些弹头可以触发,ff6666
+Revenge.NotReactionWarheads,Warheads,-1,复仇弹头黑名单,这些弹头不可以触发,ff6666
+Warhead,Warheads,1,弹头,单位的弹头。,ff6666
+DamageSelf.Warhead,Warheads,-1,自伤使用的弹头,自伤使用的弹头,ff6666
+Deliver.Types,TechnoTypes,-1,投送的单位,投送的单位。,00ff00
+AffectTypes,Techno+Projectile,-1,AE允许的对象,AE允许的对象,00ff00
+Broadcast.AffectTypes,Techno+Projectile,-1,广播允许的目标,广播允许的目标,00ff00
+NotAffectTypes,Techno+Projectile,-1,AE不允许的对象,AE不允许的对象,00ff00
+Stand.Type,TechnoTypes,1,替身单位,替身单位,00ff00
+GiftBox.Types,TechnoTypes,-1,礼物盒单位,礼物盒单位,00ff00
+Host.Types,TechnoTypes,-1,刷怪笼单位,刷怪笼单位,00ff00
+SuperWeapon,SuperWeaponTypes,1,超武1,建筑激活的超武1,00ffff
+SuperWeapon2,SuperWeaponTypes,1,超武2,建筑激活的超武2,00ffff
+SuperWeapons,SuperWeaponTypes,-1,超武列表,无限超武列表,00ffff
+Projectile,ProjectileTypes,1,抛射体,指定武器的抛射体。,ff9900
+Image,ImageTypes,1,图像,单位的图像。 ,33ccff
+CrateGoodie,bool,1,CrateGoodie,是否可以从箱子里面获得,9AF7CE
+AttachEffectTypes,AttachEffectTypes,-1,附加AE类型,附加的Kratos AE类型。,9933ff
+Stack.AttachEffects,AttachEffectTypes,-1,Stack附加AE类型,Stack附加的Kratos AE类型。,9933ff
+Stack.Watch,AttachEffectTypes,1,Stack检测AE类型,Stack检测AE类型,9933ff
+Next,AttachEffectTypes,1,下一个AE,下一个AE,9933ff
+Stack.RemoveEffects,AttachEffectTypes,-1,Stack移除AE类型,Stack移除的Kratos AE类型。,9933ff
+Host.AttachEffects,AttachEffectTypes,-1,Host附加AE类型,Host附加的Kratos AE类型。,9933ff
+Host.RemoveEffects,AttachEffectTypes,-1,Host移除AE类型,Host移除AE类型,9933ff
+GiftBox.AttachEffects,AttachEffectTypes,-1,GiftBox附加AE类型,GiftBox附加的Kratos AE类型。,9933ff
+GiftBox.RemoveEffects,AttachEffectTypes,-1,GiftBox移除AE类型,GiftBox移除AE类型,9933ff
+Revenge.AttachEffects,AttachEffectTypes,-1,复仇增加AE类型,复仇增加的Kratos AE类型。,9933ff
+DamageReaction.TriggeredAttachEffects,AttachEffectTypes,-1,伤害响应增加AE类型,伤害响应增加的Kratos AE类型。,9933ff
+Broadcast.Types,AttachEffectTypes,-1,广播粘贴的AE,广播粘贴的AE,9933ff
+Feedback.AttachEffects,AttachEffectTypes,-1,武器反馈AE,武器反馈AE,9933ff
+Sequence,Art_InfantrySequence,1,序列,单位的序列。,6699ff
+AnimList,Animations,-1,动画列表,将会播放的动画列表。,33ccff
+Name,,1,Name,Long Name,9AF7CE
+DebrisAnims,Animations,-1,Art碎片列表,Art碎片列表,33ccff
+Explosion,Animations,-1,爆炸动画,爆炸动画,33ccff
+DestroyAnim,Animations,-1,摧毁动画,摧毁动画,33ccff
+DeathAnims,Animations,-1,死亡动画,死亡动画,33ccff
+Anim,Animations,-1,开火动画,开火动画,33ccff
+ExtraFire.Primary,WeaponTypes,-1,额外武器,额外武器,ffff00
+ExtraFire.ElitePrimary,WeaponTypes,-1,额外副武器,额外副武器,ffff00
+ExtraFire.Secondary,WeaponTypes,-1,精英额外武器,精英额外武器,ffff00
+ExtraFire.EliteSecondary,WeaponTypes,-1,精英额外副武器,精英额外副武器,ffff00
+ExtraFire.Weapon1,WeaponTypes,-1,额外武器1,额外武器1,ffff00
+ExtraFire.EliteWeapon1,WeaponTypes,-1,精英额外武器1,精英额外武器1,ffff00
+RadType,RadiationTypes,1,Phobos radiation,Phobos radiation,ccffcc
+LaserTrail1.Type,LaserTrailTypes,1,Phobos Laser Trail,Phobos Laser Trail,ffccff
+LaserTrail.Types,LaserTrailTypes,-1,Phobos Laser Trail,Phobos Laser Trail,ffccff
+RadSiteWarhead,Warheads,1,Phobos Rad Warhead,Phobos Rad Warhead,ff6666
+InheritArmor.Allowed,TechnoTypes,-1,InheritArmor.Allowed,InheritArmor.Allowed,00ff00
+InheritArmor.Disallowed,TechnoTypes,-1,InheritArmor.Disallowed,InheritArmor.Disallowed,00ff00
+IdleAnim,Animations,1,IdleAnim,IdleAnim,33ccff
+IdleAnim.ConditionYellow,Animations,1,IdleAnim.ConditionYellow,IdleAnim.ConditionYellow,33ccff
+IdleAnim.ConditionRed,Animations,1,IdleAnim.ConditionRed,IdleAnim.ConditionRed,33ccff
+IdleAnimDamaged,Animations,1,IdleAnimDamaged,IdleAnimDamaged,33ccff
+IdleAnimDamaged.ConditionYellow,Animations,1,IdleAnimDamaged.ConditionYellow,IdleAnimDamaged.ConditionYellow,33ccff
+IdleAnimDamaged.ConditionRed,Animations,1,IdleAnimDamaged.ConditionRed,IdleAnimDamaged.ConditionRed,33ccff
+BreakAnim,Animations,1,BreakAnim,BreakAnim,33ccff
+HitAnim,Animations,1,HitAnim,HitAnim,33ccff
+BreakWeapon,WeaponTypes,1,BreakWeapon,BreakWeapon,ffff00
+ShieldType,ShieldTypes,1,ShieldTypes,ShieldTypes,0000ff
+Shield.AffectTypes,ShieldTypes,-1,Shield.AffectTypes,Shield.AffectTypes,0000ff
+Shield.Penetrate.Types,ShieldTypes,-1,Shield.Penetrate.Types,Shield.Penetrate.Types,0000ff
+Shield.Break.Types,ShieldTypes,-1,Shield.Break.Types,Shield.Break.Types,0000ff
+Shield.Respawn.Types,ShieldTypes,-1,Shield.Respawn.Types,Shield.Respawn.Types,0000ff
+Shield.SelfHealing.Types,ShieldTypes,-1,Shield.SelfHealing.Types,Shield.SelfHealing.Types,0000ff
+Shield.AttachTypes,ShieldTypes,-1,Shield.AttachTypes,Shield.AttachTypes,0000ff
+Shield.RemoveTypes,ShieldTypes,-1,Shield.RemoveTypes,Shield.RemoveTypes,0000ff
+Trail1.Type,TrailType,1,尾巴类型,尾巴类型,ffccff
+Anim.While,Animations,1,尾巴动画,尾巴动画,33ccff
+Anim.Start,Animations,1,单位开始运动时播放,单位开始运动时播放,33ccff
+Anim.Stop,Animations,1,单位停下来时强制播放,单位停下来时强制播放,33ccff
+Trail1.Type,TrailType,1,尾巴类型1,尾巴类型1,ffccff
+Trail2.Type,TrailType,1,尾巴类型2,尾巴类型2,ffccff
+Trail3.Type,TrailType,1,尾巴类型3,尾巴类型3,ffccff
+Trail4.Type,TrailType,1,尾巴类型4,尾巴类型4,ffccff
+Trail5.Type,TrailType,1,尾巴类型5,尾巴类型5,ffccff
+Trail6.Type,TrailType,1,尾巴类型6,尾巴类型6,ffccff
+Trail7.Type,TrailType,1,尾巴类型7,尾巴类型7,ffccff
+Trail8.Type,TrailType,1,尾巴类型8,尾巴类型8,ffccff
+DebrisTypes,VoxelAnims,-1,VXL碎片,VXL碎片,33ccff
+FireSuperWeapon.Types,SuperWeaponTypes,-1,发射超武,发射超武,00ffff
++,Everything,1,注册,注册,0
+InitialPayload.Types,TechnoTypes,-1,初始乘客,初始乘客,00ff00
+Armor,String,1,护甲（暂定）,护甲（暂定）,0
+LimboDelivery.Types,TechnoTypes,-1,LimboDelivery单位,LimboDelivery单位,00ff00
+SW.Next,SuperWeaponTypes,-1,phobos下一组超武,phobos下一组超武,00ffff
+SW.PostDependent,SuperWeaponTypes,1,链接ChronoWarp,别动这个链接,00ffff
+ExpireAnim,Animations,1,碎片播放结束的动画,碎片播放结束的动画,33ccff
+TrailerAnim,Animations,1,碎片的尾巴动画,碎片的尾巴动画,33ccff
+BounceAnim,Animations,1,碎片落地/水的动画,碎片落地/水的动画,33ccff
+Spawns,VoxelAnims,-1,刷出新的VXL碎片,刷出新的VXL碎片,33ccff
+HoldsWhat,Particles,1,使用的粒子,使用的粒子,3366ff
+AttachedParticleSystem,ParticleSystems,1,武器使用的粒子系统,武器使用的粒子系统,106699
+Particle,ParticleSystems,1,弹头爆炸的粒子系统,弹头爆炸的粒子系统,106699
+SpawnsParticle ,Particles,1,动画释放的粒子,动画释放的粒子,3366ff
+AttachedSystem,ParticleSystems,1,VXL碎片的粒子系统,VXL碎片的粒子系统,106699
+DamageParticleSystems ,ParticleSystems,-1,受损时的粒子系统,受损时的粒子系统,106699
+RefinerySmokeParticleSystem,ParticleSystems,1,倒矿时的粒子系统,倒矿时的粒子系统,106699
+NextParticle,Particles,1,下一个粒子,下一个粒子,3366ff
+Lightning.Debris,Animations,-1,闪电风暴碎片,闪电风暴碎片,33ccff
+Lightning.Bolts,Animations,-1,闪电风暴电弧,闪电风暴电弧,33ccff
+Lightning.Clouds,Animations,-1,闪电风暴云,闪电风暴云,33ccff
+Lightning.BoltExplosion,Animations,-1,闪电风暴电击爆炸,闪电风暴电击爆炸,33ccff
+SW.Warhead,Warheads,1,超武弹头,超武弹头,ff6666
+Nuke.Payload,WeaponTypes,1,蘑菇落地武器,蘑菇落地武器,ffff00
+Nuke.TakeOff,Animations,1,蘑菇起飞喷火,蘑菇起飞喷火,33ccff
+Nuke.PsiWarning,Animations,1,蘑菇心灵探测警告,蘑菇心灵探测警告,33ccff
+EMPulse.Cannons,BuildingTypes,-1,本超武绑定的建筑,本超武绑定的建筑,00ff00
+EMPulse.PulseBall,Animations,1,EMP能量球动画,EMP能量球动画,33ccff
+SW.AlwaysGranted,bool,,开场即送,开场即送,0
+SW.AllowAI,bool,,允许愚蠢的电脑使用,允许愚蠢的电脑使用,0
+SW.AITargeting,,,AI默认目标,AI默认目标,0
+SpyPlane.Type,AircraftTypes,1,使用的飞机,使用的飞机,00ff00
+ParaDrop.Types,TechnoTypes,-1,空投的单位类,空投的单位类,00ff00
+ParaDrop.Aircraft,AircraftTypes,1,空投使用的飞机,空投使用的飞机,00ff00
+ParaDrop.Count,,,总共几个飞机,总共几个飞机,0
+ParaDrop.Plane1.Types,TechnoTypes,-1,空投1的单位类,空投1的单位类,00ff00
+ParaDrop.Plane1.Aircraft,AircraftTypes,1,空投1使用的飞机,空投1使用的飞机,00ff00
+ParaDrop.Plane2.Aircraft,AircraftTypes,1,空投2使用的飞机,空投2使用的飞机,00ff00
+ParaDrop.Plane3.Aircraft,AircraftTypes,1,空投3使用的飞机,空投3使用的飞机,00ff00
+ParaDrop.Plane4.Aircraft,AircraftTypes,1,空投4使用的飞机,空投4使用的飞机,00ff00
+ParaDrop.Plane5.Aircraft,AircraftTypes,1,空投5使用的飞机,空投5使用的飞机,00ff00
+ParaDrop.Plane6.Aircraft,AircraftTypes,1,空投6使用的飞机,空投6使用的飞机,00ff00
+ParaDrop.Plane7.Aircraft,AircraftTypes,1,空投7使用的飞机,空投7使用的飞机,00ff00
+ParaDrop.Plane8.Aircraft,AircraftTypes,1,空投8使用的飞机,空投8使用的飞机,00ff00
+ParaDrop.Plane9.Aircraft,AircraftTypes,1,空投9使用的飞机,空投9使用的飞机,00ff00
+ParaDrop.Plane10.Aircraft,AircraftTypes,1,空投10使用的飞机,空投10使用的飞机,00ff00
+ParaDrop.Plane11.Aircraft,AircraftTypes,1,空投11使用的飞机,空投11使用的飞机,00ff00
+ParaDrop.Plane12.Aircraft,AircraftTypes,1,空投12使用的飞机,空投12使用的飞机,00ff00
+ParaDrop.Plane13.Aircraft,AircraftTypes,1,空投13使用的飞机,空投13使用的飞机,00ff00
+ParaDrop.Plane14.Aircraft,AircraftTypes,1,空投14使用的飞机,空投14使用的飞机,00ff00
+ParaDrop.Plane15.Aircraft,AircraftTypes,1,空投15使用的飞机,空投15使用的飞机,00ff00
+ParaDrop.Plane2.Types,TechnoTypes,-1,空投2的单位类,空投2的单位类,00ff00
+ParaDrop.Plane3.Types,TechnoTypes,-1,空投3的单位类,空投3的单位类,00ff00
+ParaDrop.Plane4.Types,TechnoTypes,-1,空投4的单位类,空投4的单位类,00ff00
+ParaDrop.Plane5.Types,TechnoTypes,-1,空投5的单位类,空投5的单位类,00ff00
+ParaDrop.Plane6.Types,TechnoTypes,-1,空投6的单位类,空投6的单位类,00ff00
+ParaDrop.Plane7.Types,TechnoTypes,-1,空投7的单位类,空投7的单位类,00ff00
+ParaDrop.Plane8.Types,TechnoTypes,-1,空投8的单位类,空投8的单位类,00ff00
+ParaDrop.Plane9.Types,TechnoTypes,-1,空投9的单位类,空投9的单位类,00ff00
+ParaDrop.Plane10.Types,TechnoTypes,-1,空投10的单位类,空投10的单位类,00ff00
+ParaDrop.Plane11.Types,TechnoTypes,-1,空投11的单位类,空投11的单位类,00ff00
+ParaDrop.Plane12.Types,TechnoTypes,-1,空投12的单位类,空投12的单位类,00ff00
+ParaDrop.Plane13.Types,TechnoTypes,-1,空投13的单位类,空投13的单位类,00ff00
+ParaDrop.Plane14.Types,TechnoTypes,-1,空投14的单位类,空投14的单位类,00ff00
+ParaDrop.Plane15.Types,TechnoTypes,-1,空投15的单位类,空投15的单位类,00ff00
+Weapon1,WeaponTypes,1,武器1,武器1,ffff00
+Weapon2,WeaponTypes,1,武器2,武器2,ffff00
+Weapon3,WeaponTypes,1,武器3,武器3,ffff00
+Weapon4,WeaponTypes,1,武器4,武器4,ffff00
+Weapon5,WeaponTypes,1,武器5,武器5,ffff00
+Weapon6,WeaponTypes,1,武器6,武器6,ffff00
+Weapon7,WeaponTypes,1,武器7,武器7,ffff00
+Weapon8,WeaponTypes,1,武器8,武器8,ffff00
+Weapon9,WeaponTypes,1,武器9,武器9,ffff00
+Weapon10,WeaponTypes,1,武器10,武器10,ffff00
+Weapon11,WeaponTypes,1,武器11,武器11,ffff00
+Weapon12,WeaponTypes,1,武器12,武器12,ffff00
+Weapon13,WeaponTypes,1,武器13,武器13,ffff00
+Weapon14,WeaponTypes,1,武器14,武器14,ffff00
+Weapon15,WeaponTypes,1,武器15,武器15,ffff00
+Weapon16,WeaponTypes,1,武器16,武器16,ffff00
+Weapon17,WeaponTypes,1,武器17,武器17,ffff00
+Weapon18,WeaponTypes,1,武器18,武器18,ffff00
+Weapon19,WeaponTypes,1,武器19,武器19,ffff00
+Weapon20,WeaponTypes,1,武器20,武器20,ffff00
+EliteWeapon1,WeaponTypes,1,精英武器1,精英武器1,ffff00
+EliteWeapon2,WeaponTypes,1,精英武器2,精英武器2,ffff00
+EliteWeapon3,WeaponTypes,1,精英武器3,精英武器3,ffff00
+EliteWeapon4,WeaponTypes,1,精英武器4,精英武器4,ffff00
+EliteWeapon5,WeaponTypes,1,精英武器5,精英武器5,ffff00
+EliteWeapon6,WeaponTypes,1,精英武器6,精英武器6,ffff00
+EliteWeapon7,WeaponTypes,1,精英武器7,精英武器7,ffff00
+EliteWeapon8,WeaponTypes,1,精英武器8,精英武器8,ffff00
+EliteWeapon9,WeaponTypes,1,精英武器9,精英武器9,ffff00
+EliteWeapon10,WeaponTypes,1,精英武器10,精英武器10,ffff00
+EliteWeapon11,WeaponTypes,1,精英武器11,精英武器11,ffff00
+EliteWeapon12,WeaponTypes,1,精英武器12,精英武器12,ffff00
+EliteWeapon13,WeaponTypes,1,精英武器13,精英武器13,ffff00
+EliteWeapon14,WeaponTypes,1,精英武器14,精英武器14,ffff00
+EliteWeapon15,WeaponTypes,1,精英武器15,精英武器15,ffff00
+EliteWeapon16,WeaponTypes,1,精英武器16,精英武器16,ffff00
+EliteWeapon17,WeaponTypes,1,精英武器17,精英武器17,ffff00
+EliteWeapon18,WeaponTypes,1,精英武器18,精英武器18,ffff00
+EliteWeapon19,WeaponTypes,1,精英武器19,精英武器19,ffff00
+EliteWeapon20,WeaponTypes,1,精英武器20,精英武器20,ffff00
+AttachFire.NotAffectMarks,AttachEffectTypes,-1,AttachFire.NotAffectMarks,AttachFire.NotAffectMarks,9933ff
+Broadcast.NotAffectMarks ,AttachEffectTypes,-1,Broadcast.NotAffectMarks ,Broadcast.NotAffectMarks ,9933ff
+BlackHole.NotAffectMarks ,AttachEffectTypes,-1,BlackHole.NotAffectMarks ,BlackHole.NotAffectMarks ,9933ff
+Revenge.NotAffectMarks ,AttachEffectTypes,-1,Revenge.NotAffectMarks ,Revenge.NotAffectMarks ,9933ff
+Vampire.NotAffectMarks ,AttachEffectTypes,-1,Vampire.NotAffectMarks ,Vampire.NotAffectMarks ,9933ff
+Pump.NotAffectMarks ,AttachEffectTypes,-1,Pump.NotAffectMarks ,Pump.NotAffectMarks ,9933ff
+ECM.NotAffectMarks,AttachEffectTypes,-1,ECM.NotAffectMarks,ECM.NotAffectMarks,9933ff
+Upload1.NotAffectMarks ,AttachEffectTypes,-1,Upload1.NotAffectMarks ,Upload1.NotAffectMarks ,9933ff
+Feedback.NotAffectMarks ,AttachEffectTypes,-1,Feedback.NotAffectMarks ,Feedback.NotAffectMarks ,9933ff
+AttachFire.OnlyAffectMarks,AttachEffectTypes,-1,AttachFire.OnlyAffectMarks,AttachFire.OnlyAffectMarks,9933ff
+Broadcast.OnlyAffectMarks ,AttachEffectTypes,-1,Broadcast.OnlyAffectMarks ,Broadcast.OnlyAffectMarks ,9933ff
+BlackHole.OnlyAffectMarks ,AttachEffectTypes,-1,BlackHole.OnlyAffectMarks ,BlackHole.OnlyAffectMarks ,9933ff
+Revenge.OnlyAffectMarks ,AttachEffectTypes,-1,Revenge.OnlyAffectMarks ,Revenge.OnlyAffectMarks ,9933ff
+Vampire.OnlyAffectMarks ,AttachEffectTypes,-1,Vampire.OnlyAffectMarks ,Vampire.OnlyAffectMarks ,9933ff
+Pump.OnlyAffectMarks ,AttachEffectTypes,-1,Pump.OnlyAffectMarks ,Pump.OnlyAffectMarks ,9933ff
+ECM.OnlyAffectMarks,AttachEffectTypes,-1,ECM.OnlyAffectMarks,ECM.OnlyAffectMarks,9933ff
+Upload1.OnlyAffectMarks ,AttachEffectTypes,-1,Upload1.OnlyAffectMarks ,Upload1.OnlyAffectMarks ,9933ff
+Feedback.OnlyAffectMarks ,AttachEffectTypes,-1,Feedback.OnlyAffectMarks ,Feedback.OnlyAffectMarks ,9933ff
+Stack.RemoveEffectsWithMarks,AttachEffectTypes,-1,Stack.RemoveEffectsWithMarks,Stack.RemoveEffectsWithMarks,9933ff
+Upload.AttachEffects,AttachEffectTypes,-1,Upload.AttachEffects,Upload.AttachEffects,9933ff
+ParticleSystem,ParticleSystems,1,粒子系统,粒子系统,106699
+Trailer,Animations,1,碎片的尾巴动画,碎片的尾巴动画,33ccff
+Script,ScriptTypes,1,AI脚本,AI脚本,ff00ff
+TaskForce,TaskForces,1,特遣部队,特遣部队,ff00ff
+DestroyAnim,Animations,-1,单位的爆炸动画,单位的爆炸动画,33ccff
+CreateUnit,TechnoTypes,1,创建单位,需要福波斯,00ff00
+CreateUnit.SpawnAnim,Animations,-1,创建单位动画,需要福波斯,33ccff
+AttachedSystem,ParticleSystems,1,动画带粒子系统,需要福波斯,106699
+PowersUp.Buildings,BuildingTypes,-1,建筑升级可放置建筑,需要福波斯,00ff00
+PowerPlantEnhancer.PowerPlants,BuildingTypes,-1,电力增幅建筑,需要福波斯,00ff00
+SpyEffect.InfiltratorSuperWeapon,SuperWeaponTypes,1,渗透方发射超武,需要福波斯,00ffff
+SpyEffect.VictimSuperWeapon,SuperWeaponTypes,1,被渗透方发射超武,需要福波斯,00ffff
+DefaultDisguise,InfantryTypes,1,默认伪装对象,需要福波斯,00ff00
+Ammo.Shared.Group,String,1,共享弹药编组,需要福波斯,0
+Interceptor.WeaponOverride,WeaponTypes,1,拦截替换武器,需要福波斯,ffff00
+Interceptable.WeaponOverride,WeaponTypes,1,拦截替换武器,需要福波斯,ffff00
+ReturnWeapon,WeaponTypes,1,反馈给开火者的武器,需要福波斯,ffff00
+Convert.From,TechnoTypes,-1,变身自,需要福波斯,00ff00
+Convert.To,TechnoTypes,1,变身为,需要福波斯,00ff00
+Detonate.Weapon,WeaponTypes,1,超武的目标格释放的武器,需要福波斯,ffff00
+Detonate.Warhead,Warheads,1,超武的目标格释放的弹头,需要福波斯,ff6666
+PassengerDeletion.ReportSound,Sounds,1,删除乘客时的音效,需要福波斯,0
+PassengerDeletion.Anim,Animations,1,删除乘客动画,需要福波斯,33ccff
+AutoDeath.VanishAnimation,Animations,1,消失时的动画,需要福波斯,33ccff
+AutoDeath.TechnosDontExist,TechnoTypes,-1,当指定科技类型不存在时自毁,需要福波斯,00ff00
+AutoDeath.TechnosExist,TechnoTypes,-1,当指定科技类型存在时自毁,需要福波斯,00ff00
+MindControl.Anim,Animations,1,心控标记动画,心控标记动画,33ccff
+WarpInWeapon,WeaponTypes,1,传送到达时武器,需要福波斯,ffff00
+WarpInMinRangeWeapon,WeaponTypes,1,传送最小距离武器,需要福波斯,ffff00
+WarpOutWeapon,WeaponTypes,1,传送跑路武器,需要福波斯,ffff00
+Crit.Warhead,Warheads,1,暴击弹头,需要福波斯,ff6666
+Crit.AnimList,Animations,-1,暴击动画,需要福波斯,33ccff
+SplashList,Animations,-1,水花动画列表,需要福波斯,33ccff
+DetonateOnAllMapObjects.AffectTypes,TechnoTypes,-1,允许影响的单位,需要福波斯,00ff00
+DetonateOnAllMapObjects.IgnoreTypes,TechnoTypes,-1,不允许影响的单位,需要福波斯,00ff00
+LaunchSW,SuperWeaponTypes,-1,弹头发射超武,需要福波斯,00ffff
+ExtraWarheads,Warheads,-1,额外弹头列表,需要福波斯,ff6666
+FeedbackWeapon,WeaponTypes,1,反馈武器,需要福波斯,ffff00
+Weapon,WeaponTypes,1,武器,武器,ffff00
+Animation,Animations,1,动画,动画,33ccff
+Broadcast.NotAffectTypes,Techno+Projectile,-1,广播不允许的目标,广播不允许的目标,00ff00
+AttachWithOutTypes,AttachEffectTypes,-1,与这些AE互斥,与这些AE互斥,9933ff
+PreImpactAnim,Animations,1,起爆前动画,起爆前动画,33ccff
