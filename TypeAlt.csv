@@ -261,3 +261,9 @@ Animation,Animations,1,动画,动画,33ccff
 Broadcast.NotAffectTypes,Techno+Projectile,-1,广播不允许的目标,广播不允许的目标,00ff00
 AttachWithOutTypes,AttachEffectTypes,-1,与这些AE互斥,与这些AE互斥,9933ff
 PreImpactAnim,Animations,1,起爆前动画,起爆前动画,33ccff
+CreateUnit,TechnoTypes,1,创建单位,需要福波斯,00ff00
+Transform.Type,TechnoTypes,1,Transform.Type,Transform.Type,00ff00
+Transform.Type,TechnoTypes,1,Transform.Type,Transform.Type,00ff00
+Convert.Land,TechnoTypes,1,Convert.Land,Convert.Land,00ff00
+Convert.Water,TechnoTypes,1,Convert.Water,Convert.Water,00ff00
+Convert.Deploy,TechnoTypes,1,Convert.Deploy,Convert.Deploy,00ff00
